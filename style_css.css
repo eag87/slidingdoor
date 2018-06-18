@@ -1,0 +1,69 @@
+
+
+.eag87-sliding_door {
+    position:relative;
+    display: inline-block;
+    line-height: 0;
+}
+
+
+.eag87-sliding_door .eag87-img_second {
+    position: absolute;
+    overflow: hidden;
+
+
+}
+.eag87-sliding_door.left_right .eag87-img_second{
+    /* versione orizzontale*/
+     top: 0; bottom: 0; left: 0;
+     width: 25px;
+     max-width: 100%;
+     resize: horizontal;
+}
+
+.eag87-sliding_door.up_down .eag87-img_second{
+    /* versione verticale   */
+    top: 0; right: 0; left: 0;
+    height:25px;
+    max-height:100%;
+    resize: vertical;
+}
+
+.eag87-sliding_door .eag87-img_first{
+
+}
+
+.eag87-sliding_door .eag87-img_second:before {
+    content: '';
+    position: absolute;
+    right: 0; bottom: 0;
+    width: 13px; height: 13px;
+    padding: 5px;
+    background: linear-gradient(-45deg, white 50%, transparent 0);
+    background-clip: content-box;
+    -webkit-filter: drop-shadow(0 0 2px black);
+    filter: drop-shadow(0 0 2px black);
+}
+
+.eag87-sliding_door.left_right .eag87-img_second:before {
+    /*versione orizzontale*/
+     cursor: ew-resize;
+}
+.eag87-sliding_door.up_down .eag87-img_second:before {
+    /*versione verticale*/
+    cursor: ns-resize;
+}
+.eag87-sliding_door img {
+    user-select: none;
+     max-width:500px;
+}
+/*dimesione della foto che si può anche ovviare*/
+.eag87-sliding_door.left_right{
+    /* versione orizzontale*/
+     max-width:500px;
+}
+
+.eag87-sliding_door.up_down{
+    /* versione verticale*/
+    max-height:500px;
+}
