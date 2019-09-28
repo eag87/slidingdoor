@@ -6,5 +6,5 @@ La prima foto è visibile, la seconda invece tramite il puntatore è possibile t
 Tramite l'utilizzo delle classi .up_down o .left_right è possibile scegliere l'effetto desiderato.
 
 DEMO HTML Slidingdoor Pure CSS 
-<a href="https://www.gioacchini.info/github/slider_css/index.html">https://www.gioacchini.info/github/slider_css/index.html"</a>
+<a href="https://www.gioacchini.info/github/slider_css/index.html">https://www.gioacchini.info/github/slider_css/index.html</a>
 
